@@ -1,0 +1,21 @@
+/* CSS for footer component*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 13.063rem;
+    margin-top: 6rem;
+    background: #000000;
+}
+
+.footer img {
+    width: 7.625rem;
+}
+
+.footer p {
+    font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+  }
+  

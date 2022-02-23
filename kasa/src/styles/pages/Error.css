@@ -1,0 +1,32 @@
+/* CSS for error page  component*/
+
+.errorWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.error404 {
+    font-size: clamp(6rem, 20vw, 21.875rem);
+    font-weight: 700;
+    margin-top: 8.75rem;
+    color: #FF6060;
+    margin-bottom: 1rem;
+}
+
+.errorText {
+    font-size: clamp(1.125rem, 2.5vw, 3rem);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 8.313rem;
+    color: #FF6060;
+}
+
+.returnLink {
+    color: #FF6060;
+    font-size: clamp(0.875rem, 1.5vw, 1.375rem);
+    font-weight: 500;
+    margin-bottom: 9.375rem;
+    text-decoration: underline;
+}

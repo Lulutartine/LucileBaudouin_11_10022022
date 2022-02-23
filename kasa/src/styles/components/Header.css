@@ -1,0 +1,52 @@
+/* CSS for header component*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom:  2.5rem;
+}
+
+.logo {
+width: 14.6vw;
+min-width: 9rem;
+max-width: 13.125rem;
+}
+
+/* Navigation*/
+nav ul {
+  display: flex;
+  list-style-type: none; 
+  padding-left: 0rem;
+}
+
+.navlink {
+text-decoration: none;
+padding-left: 2.5vw;
+cursor: pointer;  
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #FF6060;
+font-size: clamp(0.75rem, 2vw, 2rem);
+}
+
+.navlink:hover {
+text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1240px) {
+.header {
+  margin: 1.25rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+.navlink {
+  text-transform: uppercase;
+}
+}

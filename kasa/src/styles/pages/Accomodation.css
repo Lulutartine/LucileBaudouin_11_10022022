@@ -1,0 +1,74 @@
+/* CSS for accomodation pages */
+
+.accomodationWrapper {
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+} 
+
+.accomodationHeader { 
+    display: block;
+    color: #FF6060;
+    margin-top: 1rem;
+}
+
+.accomodationTitle {
+    font-weight: 500;
+    font-size: clamp(1.125rem, 2.5vw, 2.25rem);
+    margin: unset;
+    /* margin-top: 0.938rem; */
+}
+
+.accomodationLocation {
+    margin: unset;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+}
+
+.accomodationDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.hostSummary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+ /* MEDIA QUERIES */
+
+ @media screen and (min-width: 600px) {
+  .accomodationDetails {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .accomodationHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.875rem;
+  }
+
+  .accomodationLocation {
+    margin-top: 1.25rem;
+}
+
+  .hostSummary {
+    display: block;
+  }
+}
+
+.loading {
+  margin-top: 250px;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 2rem);
+  color:  #FF6060;
+}
