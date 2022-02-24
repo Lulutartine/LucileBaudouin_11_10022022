@@ -18,3 +18,9 @@ code {
 main {
   min-height: calc(100vh - 17.5rem)
 }
+
+@media screen and (max-width: 1240px) {
+  main {
+    margin: 20px;
+  }
+}
